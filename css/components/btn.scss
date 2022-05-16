@@ -1,0 +1,40 @@
+.btn {
+    font-family: 'Play';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;   
+    padding: 18px 41px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    text-decoration: none;
+    border:none;
+    color: #FFFFFF; 
+
+    &--theme-red {
+        background: $gingerColor;
+
+        &:hover {
+            background: $redColor;
+        }
+    }
+
+    &--theme-ginger {
+        background: $redColor;
+        cursor: pointer;
+
+        &:hover {
+            background: $gingerColor;
+        }
+    }
+
+    &--theme-transparent {
+        background: transparent;
+        color: $gingerColor;
+        cursor: pointer;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+}

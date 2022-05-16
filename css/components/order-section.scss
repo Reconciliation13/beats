@@ -1,0 +1,15 @@
+.order-section {
+    background-image: url(../../img/orderBG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: -23px;
+        right: 27%;
+        content: url(../../img/decor/Polygon.svg);
+
+    }
+}
