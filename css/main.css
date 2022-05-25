@@ -933,6 +933,7 @@ img {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  margin-right: 5px;
 }
 .radio--checkbox .radio__visible {
   border-radius: 0;
@@ -1016,7 +1017,7 @@ img {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  padding: 21px 0;
+  padding: 20px 0 18px 0;
 }
 
 .footer__container {
